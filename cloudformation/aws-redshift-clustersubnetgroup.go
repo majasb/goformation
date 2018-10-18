@@ -13,7 +13,7 @@ type AWSRedshiftClusterSubnetGroup struct {
 	// Description AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-description
-	Description string `json:"Description,omitempty"`
+	Description string `json:"Description"`
 
 	// SubnetIds AWS CloudFormation Property
 	// Required: true

@@ -12,7 +12,7 @@ type AWSDirectoryServiceMicrosoftAD_VpcSettings struct {
 	// VpcId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-directoryservice-microsoftad-vpcsettings.html#cfn-directoryservice-microsoftad-vpcsettings-vpcid
-	VpcId string `json:"VpcId,omitempty"`
+	VpcId string `json:"VpcId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

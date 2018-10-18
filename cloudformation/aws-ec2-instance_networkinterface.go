@@ -22,7 +22,7 @@ type AWSEC2Instance_NetworkInterface struct {
 	// DeviceIndex AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-iface-embedded.html#aws-properties-ec2-network-iface-embedded-deviceindex
-	DeviceIndex string `json:"DeviceIndex,omitempty"`
+	DeviceIndex string `json:"DeviceIndex"`
 
 	// GroupSet AWS CloudFormation Property
 	// Required: false

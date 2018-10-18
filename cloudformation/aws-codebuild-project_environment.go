@@ -12,7 +12,7 @@ type AWSCodeBuildProject_Environment struct {
 	// ComputeType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-environment.html#cfn-codebuild-project-environment-computetype
-	ComputeType string `json:"ComputeType,omitempty"`
+	ComputeType string `json:"ComputeType"`
 
 	// EnvironmentVariables AWS CloudFormation Property
 	// Required: false
@@ -22,7 +22,7 @@ type AWSCodeBuildProject_Environment struct {
 	// Image AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-environment.html#cfn-codebuild-project-environment-image
-	Image string `json:"Image,omitempty"`
+	Image string `json:"Image"`
 
 	// PrivilegedMode AWS CloudFormation Property
 	// Required: false
@@ -32,7 +32,7 @@ type AWSCodeBuildProject_Environment struct {
 	// Type AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-environment.html#cfn-codebuild-project-environment-type
-	Type string `json:"Type,omitempty"`
+	Type string `json:"Type"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

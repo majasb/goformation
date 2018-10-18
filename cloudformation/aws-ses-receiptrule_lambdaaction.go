@@ -7,7 +7,7 @@ type AWSSESReceiptRule_LambdaAction struct {
 	// FunctionArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-lambdaaction.html#cfn-ses-receiptrule-lambdaaction-functionarn
-	FunctionArn string `json:"FunctionArn,omitempty"`
+	FunctionArn string `json:"FunctionArn"`
 
 	// InvocationType AWS CloudFormation Property
 	// Required: false

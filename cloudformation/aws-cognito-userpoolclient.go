@@ -38,7 +38,7 @@ type AWSCognitoUserPoolClient struct {
 	// UserPoolId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-userpoolid
-	UserPoolId string `json:"UserPoolId,omitempty"`
+	UserPoolId string `json:"UserPoolId"`
 
 	// WriteAttributes AWS CloudFormation Property
 	// Required: false

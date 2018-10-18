@@ -13,7 +13,7 @@ type AWSCodePipelineWebhook struct {
 	// Authentication AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-authentication
-	Authentication string `json:"Authentication,omitempty"`
+	Authentication string `json:"Authentication"`
 
 	// AuthenticationConfiguration AWS CloudFormation Property
 	// Required: true
@@ -38,17 +38,17 @@ type AWSCodePipelineWebhook struct {
 	// TargetAction AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-targetaction
-	TargetAction string `json:"TargetAction,omitempty"`
+	TargetAction string `json:"TargetAction"`
 
 	// TargetPipeline AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-targetpipeline
-	TargetPipeline string `json:"TargetPipeline,omitempty"`
+	TargetPipeline string `json:"TargetPipeline"`
 
 	// TargetPipelineVersion AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-targetpipelineversion
-	TargetPipelineVersion int `json:"TargetPipelineVersion,omitempty"`
+	TargetPipelineVersion int `json:"TargetPipelineVersion"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -12,12 +12,12 @@ type AWSS3Bucket_Destination struct {
 	// BucketArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-destination.html#cfn-s3-bucket-destination-bucketarn
-	BucketArn string `json:"BucketArn,omitempty"`
+	BucketArn string `json:"BucketArn"`
 
 	// Format AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-destination.html#cfn-s3-bucket-destination-format
-	Format string `json:"Format,omitempty"`
+	Format string `json:"Format"`
 
 	// Prefix AWS CloudFormation Property
 	// Required: false

@@ -7,17 +7,17 @@ type AWSSESReceiptRule_BounceAction struct {
 	// Message AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-bounceaction.html#cfn-ses-receiptrule-bounceaction-message
-	Message string `json:"Message,omitempty"`
+	Message string `json:"Message"`
 
 	// Sender AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-bounceaction.html#cfn-ses-receiptrule-bounceaction-sender
-	Sender string `json:"Sender,omitempty"`
+	Sender string `json:"Sender"`
 
 	// SmtpReplyCode AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-bounceaction.html#cfn-ses-receiptrule-bounceaction-smtpreplycode
-	SmtpReplyCode string `json:"SmtpReplyCode,omitempty"`
+	SmtpReplyCode string `json:"SmtpReplyCode"`
 
 	// StatusCode AWS CloudFormation Property
 	// Required: false

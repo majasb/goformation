@@ -7,17 +7,17 @@ type AWSBudgetsBudget_Notification struct {
 	// ComparisonOperator AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-notification.html#cfn-budgets-budget-notification-comparisonoperator
-	ComparisonOperator string `json:"ComparisonOperator,omitempty"`
+	ComparisonOperator string `json:"ComparisonOperator"`
 
 	// NotificationType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-notification.html#cfn-budgets-budget-notification-notificationtype
-	NotificationType string `json:"NotificationType,omitempty"`
+	NotificationType string `json:"NotificationType"`
 
 	// Threshold AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-notification.html#cfn-budgets-budget-notification-threshold
-	Threshold float64 `json:"Threshold,omitempty"`
+	Threshold float64 `json:"Threshold"`
 
 	// ThresholdType AWS CloudFormation Property
 	// Required: false

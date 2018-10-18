@@ -13,12 +13,12 @@ type AWSEC2VPCDHCPOptionsAssociation struct {
 	// DhcpOptionsId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc-dhcp-options-assoc.html#cfn-ec2-vpcdhcpoptionsassociation-dhcpoptionsid
-	DhcpOptionsId string `json:"DhcpOptionsId,omitempty"`
+	DhcpOptionsId string `json:"DhcpOptionsId"`
 
 	// VpcId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc-dhcp-options-assoc.html#cfn-ec2-vpcdhcpoptionsassociation-vpcid
-	VpcId string `json:"VpcId,omitempty"`
+	VpcId string `json:"VpcId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

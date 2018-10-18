@@ -18,7 +18,7 @@ type AWSRedshiftClusterSecurityGroupIngress struct {
 	// ClusterSecurityGroupName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroupingress.html#cfn-redshift-clustersecuritygroupingress-clustersecuritygroupname
-	ClusterSecurityGroupName string `json:"ClusterSecurityGroupName,omitempty"`
+	ClusterSecurityGroupName string `json:"ClusterSecurityGroupName"`
 
 	// EC2SecurityGroupName AWS CloudFormation Property
 	// Required: false

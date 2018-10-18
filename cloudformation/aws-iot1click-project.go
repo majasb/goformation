@@ -23,7 +23,7 @@ type AWSIoT1ClickProject struct {
 	// ProjectName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html#cfn-iot1click-project-projectname
-	ProjectName string `json:"ProjectName,omitempty"`
+	ProjectName string `json:"ProjectName"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

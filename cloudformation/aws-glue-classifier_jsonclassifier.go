@@ -7,7 +7,7 @@ type AWSGlueClassifier_JsonClassifier struct {
 	// JsonPath AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-classifier-jsonclassifier.html#cfn-glue-classifier-jsonclassifier-jsonpath
-	JsonPath string `json:"JsonPath,omitempty"`
+	JsonPath string `json:"JsonPath"`
 
 	// Name AWS CloudFormation Property
 	// Required: false

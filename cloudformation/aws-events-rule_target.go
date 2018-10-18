@@ -7,7 +7,7 @@ type AWSEventsRule_Target struct {
 	// Arn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-arn
-	Arn string `json:"Arn,omitempty"`
+	Arn string `json:"Arn"`
 
 	// EcsParameters AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSEventsRule_Target struct {
 	// Id AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-id
-	Id string `json:"Id,omitempty"`
+	Id string `json:"Id"`
 
 	// Input AWS CloudFormation Property
 	// Required: false

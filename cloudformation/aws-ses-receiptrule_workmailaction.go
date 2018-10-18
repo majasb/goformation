@@ -7,7 +7,7 @@ type AWSSESReceiptRule_WorkmailAction struct {
 	// OrganizationArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-workmailaction.html#cfn-ses-receiptrule-workmailaction-organizationarn
-	OrganizationArn string `json:"OrganizationArn,omitempty"`
+	OrganizationArn string `json:"OrganizationArn"`
 
 	// TopicArn AWS CloudFormation Property
 	// Required: false

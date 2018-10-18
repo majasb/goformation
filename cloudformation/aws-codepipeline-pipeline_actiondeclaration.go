@@ -22,7 +22,7 @@ type AWSCodePipelinePipeline_ActionDeclaration struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codepipeline-pipeline-stages-actions.html#cfn-codepipeline-pipeline-stages-actions-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// OutputArtifacts AWS CloudFormation Property
 	// Required: false

@@ -7,17 +7,17 @@ type AWSServerlessFunction_DynamoDBEvent struct {
 	// BatchSize AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#dynamodb
-	BatchSize int `json:"BatchSize,omitempty"`
+	BatchSize int `json:"BatchSize"`
 
 	// StartingPosition AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#dynamodb
-	StartingPosition string `json:"StartingPosition,omitempty"`
+	StartingPosition string `json:"StartingPosition"`
 
 	// Stream AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#dynamodb
-	Stream string `json:"Stream,omitempty"`
+	Stream string `json:"Stream"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

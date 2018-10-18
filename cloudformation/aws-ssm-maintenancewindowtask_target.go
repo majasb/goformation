@@ -7,7 +7,7 @@ type AWSSSMMaintenanceWindowTask_Target struct {
 	// Key AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ssm-maintenancewindowtask-target.html#cfn-ssm-maintenancewindowtask-target-key
-	Key string `json:"Key,omitempty"`
+	Key string `json:"Key"`
 
 	// Values AWS CloudFormation Property
 	// Required: false

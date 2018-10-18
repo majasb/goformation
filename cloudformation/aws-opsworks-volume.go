@@ -13,7 +13,7 @@ type AWSOpsWorksVolume struct {
 	// Ec2VolumeId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-volume.html#cfn-opsworks-volume-ec2volumeid
-	Ec2VolumeId string `json:"Ec2VolumeId,omitempty"`
+	Ec2VolumeId string `json:"Ec2VolumeId"`
 
 	// MountPoint AWS CloudFormation Property
 	// Required: false
@@ -28,7 +28,7 @@ type AWSOpsWorksVolume struct {
 	// StackId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-volume.html#cfn-opsworks-volume-stackid
-	StackId string `json:"StackId,omitempty"`
+	StackId string `json:"StackId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

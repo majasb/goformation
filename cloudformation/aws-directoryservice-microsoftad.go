@@ -28,12 +28,12 @@ type AWSDirectoryServiceMicrosoftAD struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html#cfn-directoryservice-microsoftad-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Password AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html#cfn-directoryservice-microsoftad-password
-	Password string `json:"Password,omitempty"`
+	Password string `json:"Password"`
 
 	// ShortName AWS CloudFormation Property
 	// Required: false

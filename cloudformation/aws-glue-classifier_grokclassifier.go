@@ -7,7 +7,7 @@ type AWSGlueClassifier_GrokClassifier struct {
 	// Classification AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-classifier-grokclassifier.html#cfn-glue-classifier-grokclassifier-classification
-	Classification string `json:"Classification,omitempty"`
+	Classification string `json:"Classification"`
 
 	// CustomPatterns AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSGlueClassifier_GrokClassifier struct {
 	// GrokPattern AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-classifier-grokclassifier.html#cfn-glue-classifier-grokclassifier-grokpattern
-	GrokPattern string `json:"GrokPattern,omitempty"`
+	GrokPattern string `json:"GrokPattern"`
 
 	// Name AWS CloudFormation Property
 	// Required: false

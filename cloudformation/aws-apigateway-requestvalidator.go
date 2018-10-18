@@ -18,7 +18,7 @@ type AWSApiGatewayRequestValidator struct {
 	// RestApiId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-requestvalidator.html#cfn-apigateway-requestvalidator-restapiid
-	RestApiId string `json:"RestApiId,omitempty"`
+	RestApiId string `json:"RestApiId"`
 
 	// ValidateRequestBody AWS CloudFormation Property
 	// Required: false

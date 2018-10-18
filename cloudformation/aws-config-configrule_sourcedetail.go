@@ -7,7 +7,7 @@ type AWSConfigConfigRule_SourceDetail struct {
 	// EventSource AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configrule-source-sourcedetails.html#cfn-config-configrule-source-sourcedetail-eventsource
-	EventSource string `json:"EventSource,omitempty"`
+	EventSource string `json:"EventSource"`
 
 	// MaximumExecutionFrequency AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSConfigConfigRule_SourceDetail struct {
 	// MessageType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configrule-source-sourcedetails.html#cfn-config-configrule-source-sourcedetail-messagetype
-	MessageType string `json:"MessageType,omitempty"`
+	MessageType string `json:"MessageType"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

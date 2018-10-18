@@ -18,17 +18,17 @@ type AWSLambdaAlias struct {
 	// FunctionName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-functionname
-	FunctionName string `json:"FunctionName,omitempty"`
+	FunctionName string `json:"FunctionName"`
 
 	// FunctionVersion AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-functionversion
-	FunctionVersion string `json:"FunctionVersion,omitempty"`
+	FunctionVersion string `json:"FunctionVersion"`
 
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// RoutingConfig AWS CloudFormation Property
 	// Required: false

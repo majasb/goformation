@@ -33,7 +33,7 @@ type AWSCognitoUserPoolGroup struct {
 	// UserPoolId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolgroup.html#cfn-cognito-userpoolgroup-userpoolid
-	UserPoolId string `json:"UserPoolId,omitempty"`
+	UserPoolId string `json:"UserPoolId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

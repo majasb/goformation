@@ -7,7 +7,7 @@ type AWSCodeDeployDeploymentGroup_S3Location struct {
 	// Bucket AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codedeploy-deploymentgroup-deployment-revision-s3location.html#cfn-properties-codedeploy-deploymentgroup-deployment-revision-s3location-bucket
-	Bucket string `json:"Bucket,omitempty"`
+	Bucket string `json:"Bucket"`
 
 	// BundleType AWS CloudFormation Property
 	// Required: false
@@ -22,7 +22,7 @@ type AWSCodeDeployDeploymentGroup_S3Location struct {
 	// Key AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codedeploy-deploymentgroup-deployment-revision-s3location.html#cfn-properties-codedeploy-deploymentgroup-deployment-revision-s3location-key
-	Key string `json:"Key,omitempty"`
+	Key string `json:"Key"`
 
 	// Version AWS CloudFormation Property
 	// Required: false

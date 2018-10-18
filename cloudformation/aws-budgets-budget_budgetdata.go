@@ -17,7 +17,7 @@ type AWSBudgetsBudget_BudgetData struct {
 	// BudgetType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-budgetdata.html#cfn-budgets-budget-budgetdata-budgettype
-	BudgetType string `json:"BudgetType,omitempty"`
+	BudgetType string `json:"BudgetType"`
 
 	// CostFilters AWS CloudFormation Property
 	// Required: false
@@ -37,7 +37,7 @@ type AWSBudgetsBudget_BudgetData struct {
 	// TimeUnit AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-budgetdata.html#cfn-budgets-budget-budgetdata-timeunit
-	TimeUnit string `json:"TimeUnit,omitempty"`
+	TimeUnit string `json:"TimeUnit"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

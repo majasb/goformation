@@ -18,7 +18,7 @@ type AWSOpsWorksUserProfile struct {
 	// IamUserArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-userprofile.html#cfn-opsworks-userprofile-iamuserarn
-	IamUserArn string `json:"IamUserArn,omitempty"`
+	IamUserArn string `json:"IamUserArn"`
 
 	// SshPublicKey AWS CloudFormation Property
 	// Required: false

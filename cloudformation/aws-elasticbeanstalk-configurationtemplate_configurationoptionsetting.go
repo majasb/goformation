@@ -7,12 +7,12 @@ type AWSElasticBeanstalkConfigurationTemplate_ConfigurationOptionSetting struct 
 	// Namespace AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticbeanstalk-configurationtemplate-configurationoptionsetting.html#cfn-elasticbeanstalk-configurationtemplate-configurationoptionsetting-namespace
-	Namespace string `json:"Namespace,omitempty"`
+	Namespace string `json:"Namespace"`
 
 	// OptionName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticbeanstalk-configurationtemplate-configurationoptionsetting.html#cfn-elasticbeanstalk-configurationtemplate-configurationoptionsetting-optionname
-	OptionName string `json:"OptionName,omitempty"`
+	OptionName string `json:"OptionName"`
 
 	// ResourceName AWS CloudFormation Property
 	// Required: false

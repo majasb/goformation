@@ -57,7 +57,7 @@ type AWSCloudFrontDistribution_DefaultCacheBehavior struct {
 	// TargetOriginId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-defaultcachebehavior.html#cfn-cloudfront-distribution-defaultcachebehavior-targetoriginid
-	TargetOriginId string `json:"TargetOriginId,omitempty"`
+	TargetOriginId string `json:"TargetOriginId"`
 
 	// TrustedSigners AWS CloudFormation Property
 	// Required: false
@@ -67,7 +67,7 @@ type AWSCloudFrontDistribution_DefaultCacheBehavior struct {
 	// ViewerProtocolPolicy AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-defaultcachebehavior.html#cfn-cloudfront-distribution-defaultcachebehavior-viewerprotocolpolicy
-	ViewerProtocolPolicy string `json:"ViewerProtocolPolicy,omitempty"`
+	ViewerProtocolPolicy string `json:"ViewerProtocolPolicy"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

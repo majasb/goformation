@@ -13,7 +13,7 @@ type AWSSageMakerModel struct {
 	// ExecutionRoleArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-executionrolearn
-	ExecutionRoleArn string `json:"ExecutionRoleArn,omitempty"`
+	ExecutionRoleArn string `json:"ExecutionRoleArn"`
 
 	// ModelName AWS CloudFormation Property
 	// Required: false

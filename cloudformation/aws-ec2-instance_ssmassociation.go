@@ -12,7 +12,7 @@ type AWSEC2Instance_SsmAssociation struct {
 	// DocumentName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance-ssmassociations.html#cfn-ec2-instance-ssmassociations-documentname
-	DocumentName string `json:"DocumentName,omitempty"`
+	DocumentName string `json:"DocumentName"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

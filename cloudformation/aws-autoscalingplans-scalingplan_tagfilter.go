@@ -7,7 +7,7 @@ type AWSAutoScalingPlansScalingPlan_TagFilter struct {
 	// Key AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-autoscalingplans-scalingplan-tagfilter.html#cfn-autoscalingplans-scalingplan-tagfilter-key
-	Key string `json:"Key,omitempty"`
+	Key string `json:"Key"`
 
 	// Values AWS CloudFormation Property
 	// Required: false

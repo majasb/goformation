@@ -12,7 +12,7 @@ type AWSWAFByteMatchSet_ByteMatchTuple struct {
 	// PositionalConstraint AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waf-bytematchset-bytematchtuples.html#cfn-waf-bytematchset-bytematchtuples-positionalconstraint
-	PositionalConstraint string `json:"PositionalConstraint,omitempty"`
+	PositionalConstraint string `json:"PositionalConstraint"`
 
 	// TargetString AWS CloudFormation Property
 	// Required: false
@@ -27,7 +27,7 @@ type AWSWAFByteMatchSet_ByteMatchTuple struct {
 	// TextTransformation AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waf-bytematchset-bytematchtuples.html#cfn-waf-bytematchset-bytematchtuples-texttransformation
-	TextTransformation string `json:"TextTransformation,omitempty"`
+	TextTransformation string `json:"TextTransformation"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

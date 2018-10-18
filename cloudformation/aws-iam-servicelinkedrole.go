@@ -13,7 +13,7 @@ type AWSIAMServiceLinkedRole struct {
 	// AWSServiceName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-servicelinkedrole.html#cfn-iam-servicelinkedrole-awsservicename
-	AWSServiceName string `json:"AWSServiceName,omitempty"`
+	AWSServiceName string `json:"AWSServiceName"`
 
 	// CustomSuffix AWS CloudFormation Property
 	// Required: false

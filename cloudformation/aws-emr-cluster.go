@@ -53,7 +53,7 @@ type AWSEMRCluster struct {
 	// JobFlowRole AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-jobflowrole
-	JobFlowRole string `json:"JobFlowRole,omitempty"`
+	JobFlowRole string `json:"JobFlowRole"`
 
 	// KerberosAttributes AWS CloudFormation Property
 	// Required: false
@@ -68,7 +68,7 @@ type AWSEMRCluster struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// ReleaseLabel AWS CloudFormation Property
 	// Required: false
@@ -88,7 +88,7 @@ type AWSEMRCluster struct {
 	// ServiceRole AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-servicerole
-	ServiceRole string `json:"ServiceRole,omitempty"`
+	ServiceRole string `json:"ServiceRole"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false

@@ -42,7 +42,7 @@ type AWSRoute53RecordSetGroup_RecordSet struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Region AWS CloudFormation Property
 	// Required: false
@@ -67,7 +67,7 @@ type AWSRoute53RecordSetGroup_RecordSet struct {
 	// Type AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-type
-	Type string `json:"Type,omitempty"`
+	Type string `json:"Type"`
 
 	// Weight AWS CloudFormation Property
 	// Required: false

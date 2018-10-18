@@ -18,7 +18,7 @@ type AWSElastiCacheSubnetGroup struct {
 	// Description AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-description
-	Description string `json:"Description,omitempty"`
+	Description string `json:"Description"`
 
 	// SubnetIds AWS CloudFormation Property
 	// Required: true

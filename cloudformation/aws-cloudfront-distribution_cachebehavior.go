@@ -52,7 +52,7 @@ type AWSCloudFrontDistribution_CacheBehavior struct {
 	// PathPattern AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-cachebehavior.html#cfn-cloudfront-distribution-cachebehavior-pathpattern
-	PathPattern string `json:"PathPattern,omitempty"`
+	PathPattern string `json:"PathPattern"`
 
 	// SmoothStreaming AWS CloudFormation Property
 	// Required: false
@@ -62,7 +62,7 @@ type AWSCloudFrontDistribution_CacheBehavior struct {
 	// TargetOriginId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-cachebehavior.html#cfn-cloudfront-distribution-cachebehavior-targetoriginid
-	TargetOriginId string `json:"TargetOriginId,omitempty"`
+	TargetOriginId string `json:"TargetOriginId"`
 
 	// TrustedSigners AWS CloudFormation Property
 	// Required: false
@@ -72,7 +72,7 @@ type AWSCloudFrontDistribution_CacheBehavior struct {
 	// ViewerProtocolPolicy AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-cachebehavior.html#cfn-cloudfront-distribution-cachebehavior-viewerprotocolpolicy
-	ViewerProtocolPolicy string `json:"ViewerProtocolPolicy,omitempty"`
+	ViewerProtocolPolicy string `json:"ViewerProtocolPolicy"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

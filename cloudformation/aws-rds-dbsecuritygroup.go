@@ -23,7 +23,7 @@ type AWSRDSDBSecurityGroup struct {
 	// GroupDescription AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-groupdescription
-	GroupDescription string `json:"GroupDescription,omitempty"`
+	GroupDescription string `json:"GroupDescription"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false

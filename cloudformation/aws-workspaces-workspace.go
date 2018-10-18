@@ -13,12 +13,12 @@ type AWSWorkSpacesWorkspace struct {
 	// BundleId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-bundleid
-	BundleId string `json:"BundleId,omitempty"`
+	BundleId string `json:"BundleId"`
 
 	// DirectoryId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-directoryid
-	DirectoryId string `json:"DirectoryId,omitempty"`
+	DirectoryId string `json:"DirectoryId"`
 
 	// RootVolumeEncryptionEnabled AWS CloudFormation Property
 	// Required: false
@@ -28,7 +28,7 @@ type AWSWorkSpacesWorkspace struct {
 	// UserName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-username
-	UserName string `json:"UserName,omitempty"`
+	UserName string `json:"UserName"`
 
 	// UserVolumeEncryptionEnabled AWS CloudFormation Property
 	// Required: false

@@ -7,7 +7,7 @@ type AWSServerlessFunction_IAMPolicyDocument struct {
 	// Statement AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html
-	Statement interface{} `json:"Statement,omitempty"`
+	Statement interface{} `json:"Statement"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

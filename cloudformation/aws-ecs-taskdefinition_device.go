@@ -12,7 +12,7 @@ type AWSECSTaskDefinition_Device struct {
 	// HostPath AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-device.html#cfn-ecs-taskdefinition-device-hostpath
-	HostPath string `json:"HostPath,omitempty"`
+	HostPath string `json:"HostPath"`
 
 	// Permissions AWS CloudFormation Property
 	// Required: false

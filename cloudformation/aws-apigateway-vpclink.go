@@ -18,7 +18,7 @@ type AWSApiGatewayVpcLink struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-vpclink.html#cfn-apigateway-vpclink-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// TargetArns AWS CloudFormation Property
 	// Required: true

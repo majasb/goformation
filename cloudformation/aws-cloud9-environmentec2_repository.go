@@ -7,12 +7,12 @@ type AWSCloud9EnvironmentEC2_Repository struct {
 	// PathComponent AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloud9-environmentec2-repository.html#cfn-cloud9-environmentec2-repository-pathcomponent
-	PathComponent string `json:"PathComponent,omitempty"`
+	PathComponent string `json:"PathComponent"`
 
 	// RepositoryUrl AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloud9-environmentec2-repository.html#cfn-cloud9-environmentec2-repository-repositoryurl
-	RepositoryUrl string `json:"RepositoryUrl,omitempty"`
+	RepositoryUrl string `json:"RepositoryUrl"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

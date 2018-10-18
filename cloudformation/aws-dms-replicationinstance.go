@@ -58,7 +58,7 @@ type AWSDMSReplicationInstance struct {
 	// ReplicationInstanceClass AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html#cfn-dms-replicationinstance-replicationinstanceclass
-	ReplicationInstanceClass string `json:"ReplicationInstanceClass,omitempty"`
+	ReplicationInstanceClass string `json:"ReplicationInstanceClass"`
 
 	// ReplicationInstanceIdentifier AWS CloudFormation Property
 	// Required: false

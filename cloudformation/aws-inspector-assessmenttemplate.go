@@ -13,7 +13,7 @@ type AWSInspectorAssessmentTemplate struct {
 	// AssessmentTargetArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-assessmenttargetarn
-	AssessmentTargetArn string `json:"AssessmentTargetArn,omitempty"`
+	AssessmentTargetArn string `json:"AssessmentTargetArn"`
 
 	// AssessmentTemplateName AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSInspectorAssessmentTemplate struct {
 	// DurationInSeconds AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-durationinseconds
-	DurationInSeconds int `json:"DurationInSeconds,omitempty"`
+	DurationInSeconds int `json:"DurationInSeconds"`
 
 	// RulesPackageArns AWS CloudFormation Property
 	// Required: true

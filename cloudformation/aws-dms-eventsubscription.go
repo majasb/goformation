@@ -23,7 +23,7 @@ type AWSDMSEventSubscription struct {
 	// SnsTopicArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-snstopicarn
-	SnsTopicArn string `json:"SnsTopicArn,omitempty"`
+	SnsTopicArn string `json:"SnsTopicArn"`
 
 	// SourceIds AWS CloudFormation Property
 	// Required: false

@@ -13,7 +13,7 @@ type AWSAutoScalingScheduledAction struct {
 	// AutoScalingGroupName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-scheduledaction.html#cfn-as-scheduledaction-asgname
-	AutoScalingGroupName string `json:"AutoScalingGroupName,omitempty"`
+	AutoScalingGroupName string `json:"AutoScalingGroupName"`
 
 	// DesiredCapacity AWS CloudFormation Property
 	// Required: false

@@ -63,7 +63,7 @@ type AWSCodeBuildProject struct {
 	// ServiceRole AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-servicerole
-	ServiceRole string `json:"ServiceRole,omitempty"`
+	ServiceRole string `json:"ServiceRole"`
 
 	// Source AWS CloudFormation Property
 	// Required: true

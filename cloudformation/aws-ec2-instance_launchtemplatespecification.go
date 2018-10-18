@@ -17,7 +17,7 @@ type AWSEC2Instance_LaunchTemplateSpecification struct {
 	// Version AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance-launchtemplatespecification.html#cfn-ec2-instance-launchtemplatespecification-version
-	Version string `json:"Version,omitempty"`
+	Version string `json:"Version"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -7,7 +7,7 @@ type AWSCodeBuildProject_EnvironmentVariable struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-environmentvariable.html#cfn-codebuild-project-environmentvariable-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Type AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSCodeBuildProject_EnvironmentVariable struct {
 	// Value AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-environmentvariable.html#cfn-codebuild-project-environmentvariable-value
-	Value string `json:"Value,omitempty"`
+	Value string `json:"Value"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

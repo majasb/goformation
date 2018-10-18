@@ -63,7 +63,7 @@ type AWSOpsWorksInstance struct {
 	// InstanceType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-instancetype
-	InstanceType string `json:"InstanceType,omitempty"`
+	InstanceType string `json:"InstanceType"`
 
 	// LayerIds AWS CloudFormation Property
 	// Required: true
@@ -88,7 +88,7 @@ type AWSOpsWorksInstance struct {
 	// StackId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-stackid
-	StackId string `json:"StackId,omitempty"`
+	StackId string `json:"StackId"`
 
 	// SubnetId AWS CloudFormation Property
 	// Required: false

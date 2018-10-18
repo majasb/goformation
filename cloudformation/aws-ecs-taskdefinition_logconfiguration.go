@@ -7,7 +7,7 @@ type AWSECSTaskDefinition_LogConfiguration struct {
 	// LogDriver AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions-logconfiguration.html#cfn-ecs-taskdefinition-containerdefinition-logconfiguration-logdriver
-	LogDriver string `json:"LogDriver,omitempty"`
+	LogDriver string `json:"LogDriver"`
 
 	// Options AWS CloudFormation Property
 	// Required: false

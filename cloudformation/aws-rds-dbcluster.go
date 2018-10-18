@@ -43,7 +43,7 @@ type AWSRDSDBCluster struct {
 	// Engine AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-engine
-	Engine string `json:"Engine,omitempty"`
+	Engine string `json:"Engine"`
 
 	// EngineMode AWS CloudFormation Property
 	// Required: false

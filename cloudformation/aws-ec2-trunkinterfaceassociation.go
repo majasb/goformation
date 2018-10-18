@@ -13,7 +13,7 @@ type AWSEC2TrunkInterfaceAssociation struct {
 	// BranchInterfaceId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trunkinterfaceassociation.html#cfn-ec2-trunkinterfaceassociation-branchinterfaceid
-	BranchInterfaceId string `json:"BranchInterfaceId,omitempty"`
+	BranchInterfaceId string `json:"BranchInterfaceId"`
 
 	// GREKey AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSEC2TrunkInterfaceAssociation struct {
 	// TrunkInterfaceId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trunkinterfaceassociation.html#cfn-ec2-trunkinterfaceassociation-trunkinterfaceid
-	TrunkInterfaceId string `json:"TrunkInterfaceId,omitempty"`
+	TrunkInterfaceId string `json:"TrunkInterfaceId"`
 
 	// VLANId AWS CloudFormation Property
 	// Required: false

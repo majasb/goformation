@@ -13,7 +13,7 @@ type AWSGameLiftFleet struct {
 	// BuildId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-buildid
-	BuildId string `json:"BuildId,omitempty"`
+	BuildId string `json:"BuildId"`
 
 	// Description AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSGameLiftFleet struct {
 	// DesiredEC2Instances AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-desiredec2instances
-	DesiredEC2Instances int `json:"DesiredEC2Instances,omitempty"`
+	DesiredEC2Instances int `json:"DesiredEC2Instances"`
 
 	// EC2InboundPermissions AWS CloudFormation Property
 	// Required: false
@@ -33,7 +33,7 @@ type AWSGameLiftFleet struct {
 	// EC2InstanceType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-ec2instancetype
-	EC2InstanceType string `json:"EC2InstanceType,omitempty"`
+	EC2InstanceType string `json:"EC2InstanceType"`
 
 	// LogPaths AWS CloudFormation Property
 	// Required: false
@@ -53,7 +53,7 @@ type AWSGameLiftFleet struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// ServerLaunchParameters AWS CloudFormation Property
 	// Required: false
@@ -63,7 +63,7 @@ type AWSGameLiftFleet struct {
 	// ServerLaunchPath AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-serverlaunchpath
-	ServerLaunchPath string `json:"ServerLaunchPath,omitempty"`
+	ServerLaunchPath string `json:"ServerLaunchPath"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

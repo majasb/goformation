@@ -28,7 +28,7 @@ type AWSSSMAssociation struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// OutputLocation AWS CloudFormation Property
 	// Required: false

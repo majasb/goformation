@@ -13,7 +13,7 @@ type AWSAutoScalingLifecycleHook struct {
 	// AutoScalingGroupName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-autoscalinggroupname
-	AutoScalingGroupName string `json:"AutoScalingGroupName,omitempty"`
+	AutoScalingGroupName string `json:"AutoScalingGroupName"`
 
 	// DefaultResult AWS CloudFormation Property
 	// Required: false
@@ -33,7 +33,7 @@ type AWSAutoScalingLifecycleHook struct {
 	// LifecycleTransition AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-lifecycletransition
-	LifecycleTransition string `json:"LifecycleTransition,omitempty"`
+	LifecycleTransition string `json:"LifecycleTransition"`
 
 	// NotificationMetadata AWS CloudFormation Property
 	// Required: false

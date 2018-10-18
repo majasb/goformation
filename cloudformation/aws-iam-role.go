@@ -13,7 +13,7 @@ type AWSIAMRole struct {
 	// AssumeRolePolicyDocument AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-assumerolepolicydocument
-	AssumeRolePolicyDocument interface{} `json:"AssumeRolePolicyDocument,omitempty"`
+	AssumeRolePolicyDocument interface{} `json:"AssumeRolePolicyDocument"`
 
 	// ManagedPolicyArns AWS CloudFormation Property
 	// Required: false

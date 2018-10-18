@@ -23,7 +23,7 @@ type AWSElastiCacheCacheCluster struct {
 	// CacheNodeType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-cachenodetype
-	CacheNodeType string `json:"CacheNodeType,omitempty"`
+	CacheNodeType string `json:"CacheNodeType"`
 
 	// CacheParameterGroupName AWS CloudFormation Property
 	// Required: false
@@ -48,7 +48,7 @@ type AWSElastiCacheCacheCluster struct {
 	// Engine AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-engine
-	Engine string `json:"Engine,omitempty"`
+	Engine string `json:"Engine"`
 
 	// EngineVersion AWS CloudFormation Property
 	// Required: false
@@ -63,7 +63,7 @@ type AWSElastiCacheCacheCluster struct {
 	// NumCacheNodes AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-numcachenodes
-	NumCacheNodes int `json:"NumCacheNodes,omitempty"`
+	NumCacheNodes int `json:"NumCacheNodes"`
 
 	// Port AWS CloudFormation Property
 	// Required: false

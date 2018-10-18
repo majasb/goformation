@@ -7,7 +7,7 @@ type AWSGlueClassifier_XMLClassifier struct {
 	// Classification AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-classifier-xmlclassifier.html#cfn-glue-classifier-xmlclassifier-classification
-	Classification string `json:"Classification,omitempty"`
+	Classification string `json:"Classification"`
 
 	// Name AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSGlueClassifier_XMLClassifier struct {
 	// RowTag AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-classifier-xmlclassifier.html#cfn-glue-classifier-xmlclassifier-rowtag
-	RowTag string `json:"RowTag,omitempty"`
+	RowTag string `json:"RowTag"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

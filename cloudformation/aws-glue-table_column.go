@@ -12,7 +12,7 @@ type AWSGlueTable_Column struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-table-column.html#cfn-glue-table-column-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Type AWS CloudFormation Property
 	// Required: false

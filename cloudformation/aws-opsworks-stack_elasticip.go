@@ -7,7 +7,7 @@ type AWSOpsWorksStack_ElasticIp struct {
 	// Ip AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-stack-elasticip.html#cfn-opsworks-stack-elasticip-ip
-	Ip string `json:"Ip,omitempty"`
+	Ip string `json:"Ip"`
 
 	// Name AWS CloudFormation Property
 	// Required: false

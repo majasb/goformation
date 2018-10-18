@@ -13,7 +13,7 @@ type AWSEC2SecurityGroup struct {
 	// GroupDescription AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-groupdescription
-	GroupDescription string `json:"GroupDescription,omitempty"`
+	GroupDescription string `json:"GroupDescription"`
 
 	// GroupName AWS CloudFormation Property
 	// Required: false

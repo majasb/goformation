@@ -33,7 +33,7 @@ type AWSNeptuneDBInstance struct {
 	// DBInstanceClass AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbinstance.html#cfn-neptune-dbinstance-dbinstanceclass
-	DBInstanceClass string `json:"DBInstanceClass,omitempty"`
+	DBInstanceClass string `json:"DBInstanceClass"`
 
 	// DBInstanceIdentifier AWS CloudFormation Property
 	// Required: false

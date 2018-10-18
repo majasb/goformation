@@ -7,7 +7,7 @@ type AWSS3Bucket_QueueConfiguration struct {
 	// Event AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-notificationconfig-queueconfig.html#cfn-s3-bucket-notificationconfig-queueconfig-event
-	Event string `json:"Event,omitempty"`
+	Event string `json:"Event"`
 
 	// Filter AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSS3Bucket_QueueConfiguration struct {
 	// Queue AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-notificationconfig-queueconfig.html#cfn-s3-bucket-notificationconfig-queueconfig-queue
-	Queue string `json:"Queue,omitempty"`
+	Queue string `json:"Queue"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

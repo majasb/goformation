@@ -68,7 +68,7 @@ type AWSAutoScalingAutoScalingGroup struct {
 	// MaxSize AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-maxsize
-	MaxSize string `json:"MaxSize,omitempty"`
+	MaxSize string `json:"MaxSize"`
 
 	// MetricsCollection AWS CloudFormation Property
 	// Required: false
@@ -78,7 +78,7 @@ type AWSAutoScalingAutoScalingGroup struct {
 	// MinSize AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-minsize
-	MinSize string `json:"MinSize,omitempty"`
+	MinSize string `json:"MinSize"`
 
 	// NotificationConfigurations AWS CloudFormation Property
 	// Required: false

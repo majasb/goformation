@@ -28,7 +28,7 @@ type AWSCloudFormationStack struct {
 	// TemplateURL AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-templateurl
-	TemplateURL string `json:"TemplateURL,omitempty"`
+	TemplateURL string `json:"TemplateURL"`
 
 	// TimeoutInMinutes AWS CloudFormation Property
 	// Required: false

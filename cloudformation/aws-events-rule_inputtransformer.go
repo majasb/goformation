@@ -12,7 +12,7 @@ type AWSEventsRule_InputTransformer struct {
 	// InputTemplate AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-inputtransformer.html#cfn-events-rule-inputtransformer-inputtemplate
-	InputTemplate string `json:"InputTemplate,omitempty"`
+	InputTemplate string `json:"InputTemplate"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

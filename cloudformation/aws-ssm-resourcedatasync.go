@@ -13,7 +13,7 @@ type AWSSSMResourceDataSync struct {
 	// BucketName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-bucketname
-	BucketName string `json:"BucketName,omitempty"`
+	BucketName string `json:"BucketName"`
 
 	// BucketPrefix AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSSSMResourceDataSync struct {
 	// BucketRegion AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-bucketregion
-	BucketRegion string `json:"BucketRegion,omitempty"`
+	BucketRegion string `json:"BucketRegion"`
 
 	// KMSKeyArn AWS CloudFormation Property
 	// Required: false
@@ -33,12 +33,12 @@ type AWSSSMResourceDataSync struct {
 	// SyncFormat AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-syncformat
-	SyncFormat string `json:"SyncFormat,omitempty"`
+	SyncFormat string `json:"SyncFormat"`
 
 	// SyncName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-syncname
-	SyncName string `json:"SyncName,omitempty"`
+	SyncName string `json:"SyncName"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

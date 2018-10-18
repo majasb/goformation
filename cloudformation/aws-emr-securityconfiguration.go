@@ -18,7 +18,7 @@ type AWSEMRSecurityConfiguration struct {
 	// SecurityConfiguration AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html#cfn-emr-securityconfiguration-securityconfiguration
-	SecurityConfiguration interface{} `json:"SecurityConfiguration,omitempty"`
+	SecurityConfiguration interface{} `json:"SecurityConfiguration"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

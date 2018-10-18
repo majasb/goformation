@@ -7,7 +7,7 @@ type AWSEventsRule_SqsParameters struct {
 	// MessageGroupId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-sqsparameters.html#cfn-events-rule-sqsparameters-messagegroupid
-	MessageGroupId string `json:"MessageGroupId,omitempty"`
+	MessageGroupId string `json:"MessageGroupId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -13,7 +13,7 @@ type AWSEMRStep struct {
 	// ActionOnFailure AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-actiononfailure
-	ActionOnFailure string `json:"ActionOnFailure,omitempty"`
+	ActionOnFailure string `json:"ActionOnFailure"`
 
 	// HadoopJarStep AWS CloudFormation Property
 	// Required: true
@@ -23,12 +23,12 @@ type AWSEMRStep struct {
 	// JobFlowId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-jobflowid
-	JobFlowId string `json:"JobFlowId,omitempty"`
+	JobFlowId string `json:"JobFlowId"`
 
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

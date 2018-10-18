@@ -17,7 +17,7 @@ type AWSSageMakerModel_ContainerDefinition struct {
 	// Image AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-model-containerdefinition.html#cfn-sagemaker-model-containerdefinition-image
-	Image string `json:"Image,omitempty"`
+	Image string `json:"Image"`
 
 	// ModelDataUrl AWS CloudFormation Property
 	// Required: false

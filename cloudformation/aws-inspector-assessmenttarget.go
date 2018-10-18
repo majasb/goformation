@@ -18,7 +18,7 @@ type AWSInspectorAssessmentTarget struct {
 	// ResourceGroupArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttarget.html#cfn-inspector-assessmenttarget-resourcegrouparn
-	ResourceGroupArn string `json:"ResourceGroupArn,omitempty"`
+	ResourceGroupArn string `json:"ResourceGroupArn"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

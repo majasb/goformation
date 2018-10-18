@@ -12,7 +12,7 @@ type AWSCodeBuildProject_CloudWatchLogsConfig struct {
 	// Status AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-cloudwatchlogsconfig.html#cfn-codebuild-project-cloudwatchlogsconfig-status
-	Status string `json:"Status,omitempty"`
+	Status string `json:"Status"`
 
 	// StreamName AWS CloudFormation Property
 	// Required: false

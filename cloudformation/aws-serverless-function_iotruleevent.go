@@ -12,7 +12,7 @@ type AWSServerlessFunction_IoTRuleEvent struct {
 	// Sql AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#iotrule
-	Sql string `json:"Sql,omitempty"`
+	Sql string `json:"Sql"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

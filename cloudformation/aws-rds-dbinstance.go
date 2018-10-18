@@ -53,7 +53,7 @@ type AWSRDSDBInstance struct {
 	// DBInstanceClass AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-dbinstanceclass
-	DBInstanceClass string `json:"DBInstanceClass,omitempty"`
+	DBInstanceClass string `json:"DBInstanceClass"`
 
 	// DBInstanceIdentifier AWS CloudFormation Property
 	// Required: false

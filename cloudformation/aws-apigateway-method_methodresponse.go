@@ -17,7 +17,7 @@ type AWSApiGatewayMethod_MethodResponse struct {
 	// StatusCode AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-apitgateway-method-methodresponse.html#cfn-apigateway-method-methodresponse-statuscode
-	StatusCode string `json:"StatusCode,omitempty"`
+	StatusCode string `json:"StatusCode"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

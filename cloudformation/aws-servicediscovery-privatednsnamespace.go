@@ -18,12 +18,12 @@ type AWSServiceDiscoveryPrivateDnsNamespace struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html#cfn-servicediscovery-privatednsnamespace-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Vpc AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html#cfn-servicediscovery-privatednsnamespace-vpc
-	Vpc string `json:"Vpc,omitempty"`
+	Vpc string `json:"Vpc"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

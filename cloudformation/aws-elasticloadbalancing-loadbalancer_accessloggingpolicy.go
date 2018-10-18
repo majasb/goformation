@@ -12,12 +12,12 @@ type AWSElasticLoadBalancingLoadBalancer_AccessLoggingPolicy struct {
 	// Enabled AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-accessloggingpolicy.html#cfn-elb-accessloggingpolicy-enabled
-	Enabled bool `json:"Enabled,omitempty"`
+	Enabled bool `json:"Enabled"`
 
 	// S3BucketName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-accessloggingpolicy.html#cfn-elb-accessloggingpolicy-s3bucketname
-	S3BucketName string `json:"S3BucketName,omitempty"`
+	S3BucketName string `json:"S3BucketName"`
 
 	// S3BucketPrefix AWS CloudFormation Property
 	// Required: false

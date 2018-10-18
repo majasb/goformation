@@ -48,7 +48,7 @@ type AWSEC2Route struct {
 	// RouteTableId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html#cfn-ec2-route-routetableid
-	RouteTableId string `json:"RouteTableId,omitempty"`
+	RouteTableId string `json:"RouteTableId"`
 
 	// VpcPeeringConnectionId AWS CloudFormation Property
 	// Required: false

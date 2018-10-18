@@ -18,7 +18,7 @@ type AWSEC2VPCEndpointConnectionNotification struct {
 	// ConnectionNotificationArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionnotificationarn
-	ConnectionNotificationArn string `json:"ConnectionNotificationArn,omitempty"`
+	ConnectionNotificationArn string `json:"ConnectionNotificationArn"`
 
 	// ServiceId AWS CloudFormation Property
 	// Required: false

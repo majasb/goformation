@@ -38,7 +38,7 @@ type AWSLambdaFunction struct {
 	// Handler AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-handler
-	Handler string `json:"Handler,omitempty"`
+	Handler string `json:"Handler"`
 
 	// KmsKeyArn AWS CloudFormation Property
 	// Required: false
@@ -58,12 +58,12 @@ type AWSLambdaFunction struct {
 	// Role AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-role
-	Role string `json:"Role,omitempty"`
+	Role string `json:"Role"`
 
 	// Runtime AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-runtime
-	Runtime string `json:"Runtime,omitempty"`
+	Runtime string `json:"Runtime"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false

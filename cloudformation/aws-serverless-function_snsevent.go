@@ -7,7 +7,7 @@ type AWSServerlessFunction_SNSEvent struct {
 	// Topic AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#sns
-	Topic string `json:"Topic,omitempty"`
+	Topic string `json:"Topic"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

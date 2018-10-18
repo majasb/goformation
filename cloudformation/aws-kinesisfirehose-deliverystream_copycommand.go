@@ -17,7 +17,7 @@ type AWSKinesisFirehoseDeliveryStream_CopyCommand struct {
 	// DataTableName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-copycommand.html#cfn-kinesisfirehose-deliverystream-copycommand-datatablename
-	DataTableName string `json:"DataTableName,omitempty"`
+	DataTableName string `json:"DataTableName"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -7,12 +7,12 @@ type AWSGlueTable_Order struct {
 	// Column AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-table-order.html#cfn-glue-table-order-column
-	Column string `json:"Column,omitempty"`
+	Column string `json:"Column"`
 
 	// SortOrder AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-table-order.html#cfn-glue-table-order-sortorder
-	SortOrder int `json:"SortOrder,omitempty"`
+	SortOrder int `json:"SortOrder"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -17,7 +17,7 @@ type AWSServerlessFunction_CloudWatchEventEvent struct {
 	// Pattern AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/CloudWatchEventsandEventPatterns.html
-	Pattern interface{} `json:"Pattern,omitempty"`
+	Pattern interface{} `json:"Pattern"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

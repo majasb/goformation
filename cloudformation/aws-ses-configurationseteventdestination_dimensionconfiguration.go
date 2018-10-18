@@ -7,17 +7,17 @@ type AWSSESConfigurationSetEventDestination_DimensionConfiguration struct {
 	// DefaultDimensionValue AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-configurationseteventdestination-dimensionconfiguration.html#cfn-ses-configurationseteventdestination-dimensionconfiguration-defaultdimensionvalue
-	DefaultDimensionValue string `json:"DefaultDimensionValue,omitempty"`
+	DefaultDimensionValue string `json:"DefaultDimensionValue"`
 
 	// DimensionName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-configurationseteventdestination-dimensionconfiguration.html#cfn-ses-configurationseteventdestination-dimensionconfiguration-dimensionname
-	DimensionName string `json:"DimensionName,omitempty"`
+	DimensionName string `json:"DimensionName"`
 
 	// DimensionValueSource AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-configurationseteventdestination-dimensionconfiguration.html#cfn-ses-configurationseteventdestination-dimensionconfiguration-dimensionvaluesource
-	DimensionValueSource string `json:"DimensionValueSource,omitempty"`
+	DimensionValueSource string `json:"DimensionValueSource"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

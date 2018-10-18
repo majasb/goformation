@@ -12,7 +12,7 @@ type AWSCloudFrontDistribution_GeoRestriction struct {
 	// RestrictionType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-georestriction.html#cfn-cloudfront-distribution-georestriction-restrictiontype
-	RestrictionType string `json:"RestrictionType,omitempty"`
+	RestrictionType string `json:"RestrictionType"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

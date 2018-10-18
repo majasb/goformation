@@ -7,7 +7,7 @@ type AWSElasticLoadBalancingLoadBalancer_Listeners struct {
 	// InstancePort AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-listener.html#cfn-ec2-elb-listener-instanceport
-	InstancePort string `json:"InstancePort,omitempty"`
+	InstancePort string `json:"InstancePort"`
 
 	// InstanceProtocol AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSElasticLoadBalancingLoadBalancer_Listeners struct {
 	// LoadBalancerPort AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-listener.html#cfn-ec2-elb-listener-loadbalancerport
-	LoadBalancerPort string `json:"LoadBalancerPort,omitempty"`
+	LoadBalancerPort string `json:"LoadBalancerPort"`
 
 	// PolicyNames AWS CloudFormation Property
 	// Required: false
@@ -27,7 +27,7 @@ type AWSElasticLoadBalancingLoadBalancer_Listeners struct {
 	// Protocol AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-listener.html#cfn-ec2-elb-listener-protocol
-	Protocol string `json:"Protocol,omitempty"`
+	Protocol string `json:"Protocol"`
 
 	// SSLCertificateId AWS CloudFormation Property
 	// Required: false

@@ -58,7 +58,7 @@ type AWSOpsWorksStack struct {
 	// DefaultInstanceProfileArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-defaultinstanceprof
-	DefaultInstanceProfileArn string `json:"DefaultInstanceProfileArn,omitempty"`
+	DefaultInstanceProfileArn string `json:"DefaultInstanceProfileArn"`
 
 	// DefaultOs AWS CloudFormation Property
 	// Required: false
@@ -98,7 +98,7 @@ type AWSOpsWorksStack struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// RdsDbInstances AWS CloudFormation Property
 	// Required: false
@@ -108,7 +108,7 @@ type AWSOpsWorksStack struct {
 	// ServiceRoleArn AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-servicerolearn
-	ServiceRoleArn string `json:"ServiceRoleArn,omitempty"`
+	ServiceRoleArn string `json:"ServiceRoleArn"`
 
 	// SourceStackId AWS CloudFormation Property
 	// Required: false

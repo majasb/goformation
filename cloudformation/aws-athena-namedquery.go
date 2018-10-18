@@ -13,7 +13,7 @@ type AWSAthenaNamedQuery struct {
 	// Database AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html#cfn-athena-namedquery-database
-	Database string `json:"Database,omitempty"`
+	Database string `json:"Database"`
 
 	// Description AWS CloudFormation Property
 	// Required: false
@@ -28,7 +28,7 @@ type AWSAthenaNamedQuery struct {
 	// QueryString AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html#cfn-athena-namedquery-querystring
-	QueryString string `json:"QueryString,omitempty"`
+	QueryString string `json:"QueryString"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -7,7 +7,7 @@ type AWSS3Bucket_MetricsConfiguration struct {
 	// Id AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-metricsconfiguration.html#cfn-s3-bucket-metricsconfiguration-id
-	Id string `json:"Id,omitempty"`
+	Id string `json:"Id"`
 
 	// Prefix AWS CloudFormation Property
 	// Required: false

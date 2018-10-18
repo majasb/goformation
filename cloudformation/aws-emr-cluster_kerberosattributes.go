@@ -22,12 +22,12 @@ type AWSEMRCluster_KerberosAttributes struct {
 	// KdcAdminPassword AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-kerberosattributes.html#cfn-elasticmapreduce-cluster-kerberosattributes-kdcadminpassword
-	KdcAdminPassword string `json:"KdcAdminPassword,omitempty"`
+	KdcAdminPassword string `json:"KdcAdminPassword"`
 
 	// Realm AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-kerberosattributes.html#cfn-elasticmapreduce-cluster-kerberosattributes-realm
-	Realm string `json:"Realm,omitempty"`
+	Realm string `json:"Realm"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

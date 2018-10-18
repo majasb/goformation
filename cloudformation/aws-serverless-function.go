@@ -43,7 +43,7 @@ type AWSServerlessFunction struct {
 	// Handler AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
-	Handler string `json:"Handler,omitempty"`
+	Handler string `json:"Handler"`
 
 	// KmsKeyArn AWS CloudFormation Property
 	// Required: false
@@ -68,7 +68,7 @@ type AWSServerlessFunction struct {
 	// Runtime AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
-	Runtime string `json:"Runtime,omitempty"`
+	Runtime string `json:"Runtime"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false

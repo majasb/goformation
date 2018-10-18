@@ -7,12 +7,12 @@ type AWSRoute53HostedZone_VPC struct {
 	// VPCId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone-hostedzonevpcs.html#cfn-route53-hostedzone-hostedzonevpcs-vpcid
-	VPCId string `json:"VPCId,omitempty"`
+	VPCId string `json:"VPCId"`
 
 	// VPCRegion AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone-hostedzonevpcs.html#cfn-route53-hostedzone-hostedzonevpcs-vpcregion
-	VPCRegion string `json:"VPCRegion,omitempty"`
+	VPCRegion string `json:"VPCRegion"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

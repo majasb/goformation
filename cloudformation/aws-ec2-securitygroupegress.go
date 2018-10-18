@@ -43,12 +43,12 @@ type AWSEC2SecurityGroupEgress struct {
 	// GroupId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html#cfn-ec2-securitygroupegress-groupid
-	GroupId string `json:"GroupId,omitempty"`
+	GroupId string `json:"GroupId"`
 
 	// IpProtocol AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html#cfn-ec2-securitygroupegress-ipprotocol
-	IpProtocol string `json:"IpProtocol,omitempty"`
+	IpProtocol string `json:"IpProtocol"`
 
 	// ToPort AWS CloudFormation Property
 	// Required: false

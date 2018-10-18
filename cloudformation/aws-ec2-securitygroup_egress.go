@@ -37,7 +37,7 @@ type AWSEC2SecurityGroup_Egress struct {
 	// IpProtocol AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group-rule.html#cfn-ec2-security-group-rule-ipprotocol
-	IpProtocol string `json:"IpProtocol,omitempty"`
+	IpProtocol string `json:"IpProtocol"`
 
 	// ToPort AWS CloudFormation Property
 	// Required: false

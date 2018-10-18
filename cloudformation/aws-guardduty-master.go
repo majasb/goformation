@@ -13,7 +13,7 @@ type AWSGuardDutyMaster struct {
 	// DetectorId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-master.html#cfn-guardduty-master-detectorid
-	DetectorId string `json:"DetectorId,omitempty"`
+	DetectorId string `json:"DetectorId"`
 
 	// InvitationId AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSGuardDutyMaster struct {
 	// MasterId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-master.html#cfn-guardduty-master-masterid
-	MasterId string `json:"MasterId,omitempty"`
+	MasterId string `json:"MasterId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -13,7 +13,7 @@ type AWSServiceDiscoveryInstance struct {
 	// InstanceAttributes AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html#cfn-servicediscovery-instance-instanceattributes
-	InstanceAttributes interface{} `json:"InstanceAttributes,omitempty"`
+	InstanceAttributes interface{} `json:"InstanceAttributes"`
 
 	// InstanceId AWS CloudFormation Property
 	// Required: false
@@ -23,7 +23,7 @@ type AWSServiceDiscoveryInstance struct {
 	// ServiceId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html#cfn-servicediscovery-instance-serviceid
-	ServiceId string `json:"ServiceId,omitempty"`
+	ServiceId string `json:"ServiceId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

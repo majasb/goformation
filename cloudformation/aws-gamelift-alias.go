@@ -18,7 +18,7 @@ type AWSGameLiftAlias struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-alias.html#cfn-gamelift-alias-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// RoutingStrategy AWS CloudFormation Property
 	// Required: true

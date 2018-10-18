@@ -12,7 +12,7 @@ type AWSGluePartition_Column struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-glue-partition-column.html#cfn-glue-partition-column-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Type AWS CloudFormation Property
 	// Required: false

@@ -18,7 +18,7 @@ type AWSRDSDBSecurityGroupIngress struct {
 	// DBSecurityGroupName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-security-group-ingress.html#cfn-rds-securitygroup-ingress-dbsecuritygroupname
-	DBSecurityGroupName string `json:"DBSecurityGroupName,omitempty"`
+	DBSecurityGroupName string `json:"DBSecurityGroupName"`
 
 	// EC2SecurityGroupId AWS CloudFormation Property
 	// Required: false

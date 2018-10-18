@@ -13,7 +13,7 @@ type AWSRDSDBSubnetGroup struct {
 	// DBSubnetGroupDescription AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html#cfn-rds-dbsubnetgroup-dbsubnetgroupdescription
-	DBSubnetGroupDescription string `json:"DBSubnetGroupDescription,omitempty"`
+	DBSubnetGroupDescription string `json:"DBSubnetGroupDescription"`
 
 	// DBSubnetGroupName AWS CloudFormation Property
 	// Required: false

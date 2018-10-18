@@ -23,7 +23,7 @@ type AWSConfigDeliveryChannel struct {
 	// S3BucketName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-s3bucketname
-	S3BucketName string `json:"S3BucketName,omitempty"`
+	S3BucketName string `json:"S3BucketName"`
 
 	// S3KeyPrefix AWS CloudFormation Property
 	// Required: false

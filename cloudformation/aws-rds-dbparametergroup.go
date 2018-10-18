@@ -13,12 +13,12 @@ type AWSRDSDBParameterGroup struct {
 	// Description AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html#cfn-rds-dbparametergroup-description
-	Description string `json:"Description,omitempty"`
+	Description string `json:"Description"`
 
 	// Family AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html#cfn-rds-dbparametergroup-family
-	Family string `json:"Family,omitempty"`
+	Family string `json:"Family"`
 
 	// Parameters AWS CloudFormation Property
 	// Required: false

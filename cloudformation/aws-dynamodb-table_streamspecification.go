@@ -7,7 +7,7 @@ type AWSDynamoDBTable_StreamSpecification struct {
 	// StreamViewType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-streamspecification.html#cfn-dynamodb-streamspecification-streamviewtype
-	StreamViewType string `json:"StreamViewType,omitempty"`
+	StreamViewType string `json:"StreamViewType"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

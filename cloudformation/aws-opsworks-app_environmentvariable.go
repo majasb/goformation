@@ -7,7 +7,7 @@ type AWSOpsWorksApp_EnvironmentVariable struct {
 	// Key AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-app-environment.html#cfn-opsworks-app-environment-key
-	Key string `json:"Key,omitempty"`
+	Key string `json:"Key"`
 
 	// Secure AWS CloudFormation Property
 	// Required: false
@@ -17,7 +17,7 @@ type AWSOpsWorksApp_EnvironmentVariable struct {
 	// Value AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-app-environment.html#value
-	Value string `json:"Value,omitempty"`
+	Value string `json:"Value"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

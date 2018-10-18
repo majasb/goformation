@@ -23,12 +23,12 @@ type AWSIoT1ClickPlacement struct {
 	// PlacementName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-placementname
-	PlacementName string `json:"PlacementName,omitempty"`
+	PlacementName string `json:"PlacementName"`
 
 	// ProjectName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-projectname
-	ProjectName string `json:"ProjectName,omitempty"`
+	ProjectName string `json:"ProjectName"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

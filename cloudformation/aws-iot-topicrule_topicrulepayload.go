@@ -22,12 +22,12 @@ type AWSIoTTopicRule_TopicRulePayload struct {
 	// RuleDisabled AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iot-topicrule-topicrulepayload.html#cfn-iot-topicrule-topicrulepayload-ruledisabled
-	RuleDisabled bool `json:"RuleDisabled,omitempty"`
+	RuleDisabled bool `json:"RuleDisabled"`
 
 	// Sql AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iot-topicrule-topicrulepayload.html#cfn-iot-topicrule-topicrulepayload-sql
-	Sql string `json:"Sql,omitempty"`
+	Sql string `json:"Sql"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

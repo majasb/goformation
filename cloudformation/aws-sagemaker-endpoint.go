@@ -13,7 +13,7 @@ type AWSSageMakerEndpoint struct {
 	// EndpointConfigName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-endpointconfigname
-	EndpointConfigName string `json:"EndpointConfigName,omitempty"`
+	EndpointConfigName string `json:"EndpointConfigName"`
 
 	// EndpointName AWS CloudFormation Property
 	// Required: false

@@ -27,7 +27,7 @@ type AWSBatchComputeEnvironment_ComputeResources struct {
 	// InstanceRole AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html#cfn-batch-computeenvironment-computeresources-instancerole
-	InstanceRole string `json:"InstanceRole,omitempty"`
+	InstanceRole string `json:"InstanceRole"`
 
 	// InstanceTypes AWS CloudFormation Property
 	// Required: true
@@ -37,12 +37,12 @@ type AWSBatchComputeEnvironment_ComputeResources struct {
 	// MaxvCpus AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html#cfn-batch-computeenvironment-computeresources-maxvcpus
-	MaxvCpus int `json:"MaxvCpus,omitempty"`
+	MaxvCpus int `json:"MaxvCpus"`
 
 	// MinvCpus AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html#cfn-batch-computeenvironment-computeresources-minvcpus
-	MinvCpus int `json:"MinvCpus,omitempty"`
+	MinvCpus int `json:"MinvCpus"`
 
 	// SecurityGroupIds AWS CloudFormation Property
 	// Required: true
@@ -67,7 +67,7 @@ type AWSBatchComputeEnvironment_ComputeResources struct {
 	// Type AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html#cfn-batch-computeenvironment-computeresources-type
-	Type string `json:"Type,omitempty"`
+	Type string `json:"Type"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

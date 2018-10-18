@@ -47,7 +47,7 @@ type AWSS3Bucket_Rule struct {
 	// Status AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig-rule.html#cfn-s3-bucket-lifecycleconfig-rule-status
-	Status string `json:"Status,omitempty"`
+	Status string `json:"Status"`
 
 	// TagFilters AWS CloudFormation Property
 	// Required: false

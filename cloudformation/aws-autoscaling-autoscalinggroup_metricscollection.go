@@ -7,7 +7,7 @@ type AWSAutoScalingAutoScalingGroup_MetricsCollection struct {
 	// Granularity AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-metricscollection.html#cfn-as-metricscollection-granularity
-	Granularity string `json:"Granularity,omitempty"`
+	Granularity string `json:"Granularity"`
 
 	// Metrics AWS CloudFormation Property
 	// Required: false

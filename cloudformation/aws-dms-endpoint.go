@@ -33,12 +33,12 @@ type AWSDMSEndpoint struct {
 	// EndpointType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-endpointtype
-	EndpointType string `json:"EndpointType,omitempty"`
+	EndpointType string `json:"EndpointType"`
 
 	// EngineName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-enginename
-	EngineName string `json:"EngineName,omitempty"`
+	EngineName string `json:"EngineName"`
 
 	// ExtraConnectionAttributes AWS CloudFormation Property
 	// Required: false

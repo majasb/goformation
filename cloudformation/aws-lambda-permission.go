@@ -13,7 +13,7 @@ type AWSLambdaPermission struct {
 	// Action AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html#cfn-lambda-permission-action
-	Action string `json:"Action,omitempty"`
+	Action string `json:"Action"`
 
 	// EventSourceToken AWS CloudFormation Property
 	// Required: false
@@ -23,12 +23,12 @@ type AWSLambdaPermission struct {
 	// FunctionName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html#cfn-lambda-permission-functionname
-	FunctionName string `json:"FunctionName,omitempty"`
+	FunctionName string `json:"FunctionName"`
 
 	// Principal AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html#cfn-lambda-permission-principal
-	Principal string `json:"Principal,omitempty"`
+	Principal string `json:"Principal"`
 
 	// SourceAccount AWS CloudFormation Property
 	// Required: false

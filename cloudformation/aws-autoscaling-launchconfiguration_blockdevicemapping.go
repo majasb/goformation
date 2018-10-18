@@ -7,7 +7,7 @@ type AWSAutoScalingLaunchConfiguration_BlockDeviceMapping struct {
 	// DeviceName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig-blockdev-mapping.html#cfn-as-launchconfig-blockdev-mapping-devicename
-	DeviceName string `json:"DeviceName,omitempty"`
+	DeviceName string `json:"DeviceName"`
 
 	// Ebs AWS CloudFormation Property
 	// Required: false

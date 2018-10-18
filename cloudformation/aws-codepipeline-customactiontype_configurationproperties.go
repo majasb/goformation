@@ -12,12 +12,12 @@ type AWSCodePipelineCustomActionType_ConfigurationProperties struct {
 	// Key AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codepipeline-customactiontype-configurationproperties.html#cfn-codepipeline-customactiontype-configurationproperties-key
-	Key bool `json:"Key,omitempty"`
+	Key bool `json:"Key"`
 
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codepipeline-customactiontype-configurationproperties.html#cfn-codepipeline-customactiontype-configurationproperties-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Queryable AWS CloudFormation Property
 	// Required: false
@@ -27,12 +27,12 @@ type AWSCodePipelineCustomActionType_ConfigurationProperties struct {
 	// Required AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codepipeline-customactiontype-configurationproperties.html#cfn-codepipeline-customactiontype-configurationproperties-required
-	Required bool `json:"Required,omitempty"`
+	Required bool `json:"Required"`
 
 	// Secret AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codepipeline-customactiontype-configurationproperties.html#cfn-codepipeline-customactiontype-configurationproperties-secret
-	Secret bool `json:"Secret,omitempty"`
+	Secret bool `json:"Secret"`
 
 	// Type AWS CloudFormation Property
 	// Required: false

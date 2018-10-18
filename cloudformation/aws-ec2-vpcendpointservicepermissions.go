@@ -18,7 +18,7 @@ type AWSEC2VPCEndpointServicePermissions struct {
 	// ServiceId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservicepermissions.html#cfn-ec2-vpcendpointservicepermissions-serviceid
-	ServiceId string `json:"ServiceId,omitempty"`
+	ServiceId string `json:"ServiceId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

@@ -17,7 +17,7 @@ type AWSEMRInstanceGroupConfig_ScalingRule struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-instancegroupconfig-scalingrule.html#cfn-elasticmapreduce-instancegroupconfig-scalingrule-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Trigger AWS CloudFormation Property
 	// Required: true

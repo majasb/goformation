@@ -7,12 +7,12 @@ type AWSBudgetsBudget_Spend struct {
 	// Amount AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-spend.html#cfn-budgets-budget-spend-amount
-	Amount float64 `json:"Amount,omitempty"`
+	Amount float64 `json:"Amount"`
 
 	// Unit AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-budgets-budget-spend.html#cfn-budgets-budget-spend-unit
-	Unit string `json:"Unit,omitempty"`
+	Unit string `json:"Unit"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

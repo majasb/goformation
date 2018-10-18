@@ -108,7 +108,7 @@ type AWSElastiCacheReplicationGroup struct {
 	// ReplicationGroupDescription AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-replicationgroupdescription
-	ReplicationGroupDescription string `json:"ReplicationGroupDescription,omitempty"`
+	ReplicationGroupDescription string `json:"ReplicationGroupDescription"`
 
 	// ReplicationGroupId AWS CloudFormation Property
 	// Required: false

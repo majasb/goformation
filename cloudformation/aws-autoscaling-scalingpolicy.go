@@ -18,7 +18,7 @@ type AWSAutoScalingScalingPolicy struct {
 	// AutoScalingGroupName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-as-scalingpolicy-autoscalinggroupname
-	AutoScalingGroupName string `json:"AutoScalingGroupName,omitempty"`
+	AutoScalingGroupName string `json:"AutoScalingGroupName"`
 
 	// Cooldown AWS CloudFormation Property
 	// Required: false

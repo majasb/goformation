@@ -43,7 +43,7 @@ type AWSAutoScalingLaunchConfiguration struct {
 	// ImageId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-imageid
-	ImageId string `json:"ImageId,omitempty"`
+	ImageId string `json:"ImageId"`
 
 	// InstanceId AWS CloudFormation Property
 	// Required: false
@@ -58,7 +58,7 @@ type AWSAutoScalingLaunchConfiguration struct {
 	// InstanceType AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-instancetype
-	InstanceType string `json:"InstanceType,omitempty"`
+	InstanceType string `json:"InstanceType"`
 
 	// KernelId AWS CloudFormation Property
 	// Required: false

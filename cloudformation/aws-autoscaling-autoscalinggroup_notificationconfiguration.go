@@ -12,7 +12,7 @@ type AWSAutoScalingAutoScalingGroup_NotificationConfiguration struct {
 	// TopicARN AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-notificationconfigurations.html#cfn-autoscaling-autoscalinggroup-notificationconfigurations-topicarn
-	TopicARN string `json:"TopicARN,omitempty"`
+	TopicARN string `json:"TopicARN"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

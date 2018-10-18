@@ -23,12 +23,12 @@ type AWSServiceCatalogPortfolio struct {
 	// DisplayName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html#cfn-servicecatalog-portfolio-displayname
-	DisplayName string `json:"DisplayName,omitempty"`
+	DisplayName string `json:"DisplayName"`
 
 	// ProviderName AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html#cfn-servicecatalog-portfolio-providername
-	ProviderName string `json:"ProviderName,omitempty"`
+	ProviderName string `json:"ProviderName"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false

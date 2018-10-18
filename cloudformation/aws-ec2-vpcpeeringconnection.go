@@ -28,7 +28,7 @@ type AWSEC2VPCPeeringConnection struct {
 	// PeerVpcId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peervpcid
-	PeerVpcId string `json:"PeerVpcId,omitempty"`
+	PeerVpcId string `json:"PeerVpcId"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false
@@ -38,7 +38,7 @@ type AWSEC2VPCPeeringConnection struct {
 	// VpcId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-vpcid
-	VpcId string `json:"VpcId,omitempty"`
+	VpcId string `json:"VpcId"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
 	_deletionPolicy DeletionPolicy

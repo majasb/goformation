@@ -18,12 +18,12 @@ type AWSOpsWorksLayer struct {
 	// AutoAssignElasticIps AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-autoassignelasticips
-	AutoAssignElasticIps bool `json:"AutoAssignElasticIps,omitempty"`
+	AutoAssignElasticIps bool `json:"AutoAssignElasticIps"`
 
 	// AutoAssignPublicIps AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-autoassignpublicips
-	AutoAssignPublicIps bool `json:"AutoAssignPublicIps,omitempty"`
+	AutoAssignPublicIps bool `json:"AutoAssignPublicIps"`
 
 	// CustomInstanceProfileArn AWS CloudFormation Property
 	// Required: false
@@ -48,7 +48,7 @@ type AWSOpsWorksLayer struct {
 	// EnableAutoHealing AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-enableautohealing
-	EnableAutoHealing bool `json:"EnableAutoHealing,omitempty"`
+	EnableAutoHealing bool `json:"EnableAutoHealing"`
 
 	// InstallUpdatesOnBoot AWS CloudFormation Property
 	// Required: false
@@ -68,7 +68,7 @@ type AWSOpsWorksLayer struct {
 	// Name AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-name
-	Name string `json:"Name,omitempty"`
+	Name string `json:"Name"`
 
 	// Packages AWS CloudFormation Property
 	// Required: false
@@ -78,12 +78,12 @@ type AWSOpsWorksLayer struct {
 	// Shortname AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-shortname
-	Shortname string `json:"Shortname,omitempty"`
+	Shortname string `json:"Shortname"`
 
 	// StackId AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-stackid
-	StackId string `json:"StackId,omitempty"`
+	StackId string `json:"StackId"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false
@@ -93,7 +93,7 @@ type AWSOpsWorksLayer struct {
 	// Type AWS CloudFormation Property
 	// Required: true
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-type
-	Type string `json:"Type,omitempty"`
+	Type string `json:"Type"`
 
 	// UseEbsOptimizedInstances AWS CloudFormation Property
 	// Required: false
